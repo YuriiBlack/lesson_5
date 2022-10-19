@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit-Bold.woff") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.a2{
+    font-family: "Larsseit",  sans-serif;
+    font-weight: 400;
+}
+
+div{
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: red;
+}
+
+div.article_1{
+    padding: 20px;
+    background-color: aqua;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.article_2{
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 15px 20px;
+    background-color: olivedrab;
+    line-height: 2;
+}
+
+div.article_3{
+    font-family: "Larsseit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    padding: 20px 15px;
+    margin: 30px;
+    background-color: rebeccapurple;
+    text-decoration: overline;
+}
+
+.article_4{
+    margin: 10px 20px;
+    background-color: navy;
+    word-spacing: 32px;
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+
+div.article_5{
+    font-family: "Larsseit", sans-serif;
+    font-style: oblique;
+    margin : 20px;
+    background-color: yellow;
+    padding: 5px;
+    line-height: 2;
+}
+
+.article_6{
+    margin: 10px 15px 20px 25px;
+    padding: 25px;
+    background-color: pink;
+    text-transform: lowercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+
+.contact{
+    margin: 0 0 0 35px;
+    padding: 15px;
+    background-color: teal;
+}
+
+.contact li{
+    margin-bottom: 15px;
+    color: red;
+}
